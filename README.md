@@ -1,14 +1,14 @@
 # TripleCross
-![License](https://img.shields.io/github/license/h3xduck/TripleCross)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/h3xduck/TripleCross?include_prereleases)
+![License](https://img.shields.io/github/license/trhacknon/TripleCross)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/trhacknon/TripleCross?include_prereleases)
 ![Maintainability](https://img.shields.io/static/v1?label=maintainability&message=B&color=green)
-![GitHub last commit](https://img.shields.io/github/last-commit/h3xduck/TripleCross)
+![GitHub last commit](https://img.shields.io/github/last-commit/trhacknon/TripleCross)
 
 TripleCross is a Linux eBPF rootkit that demonstrates the offensive capabilities of the eBPF technology.
 
 TripleCross is inspired by previous implant designs in this area, notably the works of Jeff Dileo at DEFCON 27[^1], Pat Hogan at DEFCON 29[^2], Guillaume Fournier and Sylvain Afchain also at DEFCON 29[^3], and Kris Nóva's Boopkit[^4]. We reuse and extend some of the techniques pioneered by these previous explorations of the offensive capabilities of eBPF technology.
 
-This rootkit was created for my Bachelor's Thesis at UC3M. More details about its design are provided in the [thesis document](https://github.com/h3xduck/TripleCross/blob/master/docs/ebpf_offensive_rootkit_tfg.pdf).
+This rootkit was created for my Bachelor's Thesis at UC3M. More details about its design are provided in the [thesis document](https://github.com/trhacknon/TripleCross/blob/master/docs/ebpf_offensive_rootkit_tfg.pdf).
 
 ### Disclaimer
 This rookit is **purely for educational and academic purposes**. The software is provided "as is" and the authors are not responsible for any damage or mishaps that may occur during its use.
@@ -319,7 +319,7 @@ The technique used for achieving this functionality consists of tampering with t
 
 
 ## License
-The TripleCross rootkit and the rootkit client are licensed under the GPLv3 license. See [LICENSE](https://github.com/h3xduck/TripleCross/blob/master/LICENSE).
+The TripleCross rootkit and the rootkit client are licensed under the GPLv3 license. See [LICENSE](https://github.com/trhacknon/TripleCross/blob/master/LICENSE).
 
 The [RawTCP_Lib](https://github.com/h3xduck/RawTCP_Lib) library is licensed under the MIT license.
 
